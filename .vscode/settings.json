@@ -6,5 +6,6 @@
   "prettier.trailingComma": "all",
   "prettier.printWidth": 80,
   "prettier.tabWidth": 2,
-  "prettier.useTabs": false
+  "prettier.useTabs": false,
+  "liveServer.settings.port": 5501
 }
