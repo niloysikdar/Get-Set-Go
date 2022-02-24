@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+.container-fluid{
+  display: flex;
+  flex-direction: column;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: .5rem;
+}
+.navbar .user_profile{
+  display: flex;
+  flex-direction: row;
+}
+.navbar .user_profile_name p {
+  font-size: 1.1rem;
+}
+.navbar .user_profile_icon a i{
+  font-size: 1.9rem;
+  color: rgba(75, 73, 75, 0.836);
+
+
+}
+.navbar .user_profile_icon{
+  padding-left: 2px !important;
+}
+.navbar .menu_icon i{
+  font-size: 1.8rem;
+  position: relative;
+  top: -.37rem;
+  color: rgb(75, 73, 75);
+}
+.navbar div{
+  padding:4px 10px;
+  font-weight: 500;
+  color: rgb(75, 73, 75);
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.center input{
+  width: 430px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.center input:focus{
+  border: 1px solid rgb(75, 73, 75);
+  box-shadow: 0px 0px 4px rgba(85, 85, 85, 0.733);
+
+}
+.center i {
+  position: relative;
+  right: 40px;
+  opacity: .6;
+  color: rgb(75, 73, 75);
+  cursor: text;
+}
