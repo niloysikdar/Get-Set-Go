@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    height: 700px !important;
+    height: 700px;
   }
   .container-fluid_2{
     display: flex;

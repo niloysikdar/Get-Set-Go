@@ -59,7 +59,7 @@ searchBar.addEventListener('keyup', (input_value) => {
     });
     showStates(findState);
 })
-const getState = async () => {
+const getState = () => {
     try {
         showStates(stateDesc);
     } catch (error) {

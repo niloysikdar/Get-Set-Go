@@ -4,7 +4,6 @@
     box-sizing: border-box;
   }
   body{
-    height: 100vh;
     overflow-x: hidden;
     background-image: url('../images/gallery_page_background.jpg');
     background-size: cover;
@@ -14,7 +13,6 @@
   color: #6c63ff;
 }
 .center {
-  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
