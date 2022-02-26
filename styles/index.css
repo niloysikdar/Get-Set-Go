@@ -1,75 +1,141 @@
+@import url('http://fonts.cdnfonts.com/css/roboto');
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body{
-  height: 100vh;
-  background-image: url('../images/Background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-}
-.container-fluid{
-  display: flex;
-  flex-direction: column;
-}
-.navbar{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-right: .5rem;
-}
-.navbar .user_profile{
-  display: flex;
-  flex-direction: row;
-}
-.navbar .user_profile_name p {
-  font-size: 1.1rem;
-}
-.navbar .user_profile_icon a i{
-  font-size: 1.9rem;
-  color: rgba(75, 73, 75, 0.836);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  .container-fluid_1{
+    background-image: url('../images/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+  }
+  .container-fluid_2{
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    right: 0px;
+    padding: 40px;
+    padding-right: 60px;
+    height: 600px;
+    background-color: rgba(110, 109, 109, 0.185);
+    background-color: #2e313a;
+    margin-left: 0px;
+  }
+  .container-fluid_2 .gallery_section_explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid_2 a{
+    border: none;
+    text-decoration: none;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    width: 90px;
+  }
+  .container-fluid_2 a:hover{
+    background-color: white;
+    color: #6c63ff;
+    transition: .3s all linear;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .container-fluid_2 svg{
+    width: 340px;
+    height: 270px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -3px 0px 7px rgb(0,0,0,0.3);
+  }
+  .gallery_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container-fluid_2 .gallery_section_description h4{
+      font-size: 2.3rem;
+      color: #ffffff;
+      text-align: center;
+  }
+  .container-fluid_2 .gallery_section_description ul li{
+    width: 345px;
+    color: rgb(196, 194, 194);
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: .5rem;
+  }
+  .navbar .user_profile{
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar .user_profile_name p {
+    font-size: 1.1rem;
+  }
+  .navbar .user_profile_icon a i{
+    font-size: 1.9rem;
+    color: rgba(75, 73, 75, 0.836);
 
 
-}
-.navbar .user_profile_icon{
-  padding-left: 2px !important;
-}
-.navbar .menu_icon i{
-  font-size: 1.8rem;
-  position: relative;
-  top: -.37rem;
-  color: rgb(75, 73, 75);
-}
-.navbar div{
-  padding:4px 10px;
-  font-weight: 500;
-  color: rgb(75, 73, 75);
-}
-.center{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-.center input{
-  width: 430px;
-  padding: 8px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-.center input:focus{
-  border: 1px solid rgb(75, 73, 75);
-  box-shadow: 0px 0px 4px rgba(85, 85, 85, 0.733);
+  }
+  .navbar .user_profile_icon{
+    padding-left: 2px !important;
+  }
+  .navbar .menu_icon i{
+    font-size: 1.8rem;
+    position: relative;
+    top: -.37rem;
+    color: rgb(75, 73, 75);
+  }
+  .navbar div{
+    padding:4px 10px;
+    font-weight: 500;
+    color: rgb(75, 73, 75);
+  }
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .center input{
+    width: 430px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .center input:focus{
+    border: 1px solid rgb(75, 73, 75);
+    box-shadow: 0px 0px 4px rgba(85, 85, 85, 0.733);
 
-}
-.center i {
-  position: relative;
-  right: 40px;
-  opacity: .6;
-  color: rgb(75, 73, 75);
-  cursor: text;
-}
+  }
+  .center i {
+    position: relative;
+    right: 40px;
+    opacity: .6;
+    color: rgb(75, 73, 75);
+    cursor: text;
+  }
