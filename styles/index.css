@@ -289,3 +289,20 @@ section .rightside a:hover {
     transform: translateY(150px);
   }
 }
+
+
+
+
+.navbar-section p a{
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding:5px 10px 6px 10px;
+  transition: all .3s;
+}
+.navbar-section p a:hover{
+  background-color: rgba(36, 35, 35, 0.774);
+  color: white;
+}
