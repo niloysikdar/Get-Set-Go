@@ -8,6 +8,19 @@
     height: 100vh;
     overflow-x: hidden;
   }
+  .user_profile_name{
+    display:flex;
+    padding: 200px;
+  }
+  .user_profile_name a{ 
+    margin-top: 0.05rem;
+    font-size: 1.07rem;
+    color: rgba(0, 0, 0, 0.747);
+    text-decoration: none !important;
+  }
+  .user_profile_name p{
+    margin-left: 10px;
+  }
   .container-fluid_1{
     background-image: url('../images/Background.jpg');
     background-size: cover;
