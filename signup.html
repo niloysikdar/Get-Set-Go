@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Get Set Go | Sign Up</title>
+    <link rel="stylesheet" href="/styles/signup.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form_body">
+            <div class="form_body__header">
+                <h2 class="heading">Create An Account</h2>
+            </div>
+            <form>
+                <div class="form_body__body">
+                    <label for="name">Name:</label>
+                    <div class="name-box box">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <label for="email">Email Address:</label>
+                    <div class="email-box box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <label for="password">Password:</label>
+                    <div class="password-box box">
+                        <i class="fa-solid fa-key"></i>
+                        <input id="pass" type="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <label for="cpassword">Confirm Password:</label>
+                    <div class="password-box box">
+                        <i class="fa-solid fa-key"></i>
+                        <input id="cpass" type="password" name="cpassword" placeholder="Re-enter your password"
+                            required>
+                    </div>
+                </div>
+                <div class="form_body__footer">
+                    <button type="submit" id="signin" class="btn_sign_up">Create Account</button>
+                    <p>Already have an account? <a href="./signin.html">Sign In</a></p>
+                    <p><a href="#">Forgot password? </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
