@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Get-Set-Go</title>
+  <title>Get Set Go</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles/index.css">
-  <script src="./js/app.js"></script>
 </head>
 
 <body class="scroll_bar_visible">
@@ -31,7 +31,7 @@
         </div>
       </div>
     </section>
-
+    
   </div>
   <div class="container2">
     <section>
@@ -50,7 +50,45 @@
       </div>
     </section>
   </div>
-
+  <div class="container3">
+    <section id="slider-container" class="slider-container">
+      <div class="swiper home-slider">
+        
+        <div class="swiper-wrapper" id="swiper-wrapper-1">
+          <!-- Dynamic Sliders -->
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next" id="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <script src="./js/app.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".home-slider", {
+      allowSlideNext: true,
+      loop: true,
+      grabCursor: true,
+      autoplay: {
+        delay: 3000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      
+    });
+    
+    
+    </script>
 </body>
 
 </html>
