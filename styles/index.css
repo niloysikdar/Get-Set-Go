@@ -5,6 +5,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar-section a{
+  padding-top: 2px;
+  font-size: 1.28rem;
+  text-decoration: none !important;
+  color: black
+}
 
 .scroll_bar_visible::selection {
   background-color: rgb(218, 210, 210);

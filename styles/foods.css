@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo&family=Cookie&family=Courgette&family=Dancing+Script&family=Great+Vibes&family=IBM+Plex+Mono:wght@100&family=Lobster&family=Lobster+Two&family=Pacifico&family=Sansita+Swashed:wght@300&family=Shadows+Into+Light&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.user_profile_name{
+  display:flex;
+  padding: 200px;
+}
+.user_profile_name a{ 
+  margin-top: 0.3rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.747);
+  text-decoration: none !important;
+}
+.user_profile_name p{
+  margin-left: 10px;
+}
+.container-1
+{
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  overflow-x:hidden;
+  overflow-y: auto;
+  background-image: url('../images/bkg3.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  text-align: center;
+  position: static;
+  /* top: 40px; left: 40px; */
+  }
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0.7rem;
+}
+.navbar .user_profile{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-right: 1.2rem;
+
+}
+.navbar .user_profile_name  p{
+  padding-top: 0.2rem;
+  font-size: 1.2rem;
+}
+.navbar .user_profile_icon a i{
+  font-size: 1.9rem;
+  color: rgba(0, 0, 0, 0.781);
+}
+.navbar .user_profile_icon{
+  padding-left: 2px !important;
+}
+.navbar .menu_icon i{
+  padding-top: 0.3rem;
+  font-size: 1.8rem;
+  position: relative;
+  top: -0.02rem;
+  left:-0.7rem;
+  color: rgba(0, 0, 0, 0.781);
+}
+.navbar div{
+  padding:4px 10px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.781);
+}
+.foods_header text-center
+{
+ /* font-family: 'Shadows Into Light', cursive; */
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+  align-items: center;
+  justify-self:center;
+  height: inherit;
+
+}  
+#foods_heading{
+font-size: 2.5rem;
+letter-spacing: 0.1rem;
+word-spacing: 0.1rem;
+color:#c3c9db ;
+font-family: 'Courgette', cursive;margin-bottom:4rem;
+text-shadow: 5px 5px 5px black;
+}
+.foods_header text-center{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+/* transform: translateY(50px); */
+}
+
+.foods_header input {
+width: 35%;
+height: 40px;
+border-radius: 10px;
+outline: none;
+padding: 5px;
+margin: 25px;
+margin-top: 35px;
+margin-bottom: 0px;
+padding-left: 15px;
+font-size: 1rem;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+background-color: white;
+border: none;
+color: rgb(100, 100, 100);
+box-shadow:0px 0px 8px  rgb(30, 22, 139);
+}
+.foods_header input:focus{
+box-shadow: 0px 0px 14px rgb(70, 70, 70);
+
+}
+.container-fluid_1{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  justify-content: center;
+  background-image: url('../images/bkg4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; 
+  display: block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 15rem;
+  padding-left:4.5rem;
+  padding-top: 2.5rem;
+}
+.container .box{
+  position: relative;
+  width: calc(32rem - 5rem);
+  height: calc(27rem - 5rem);
+  background: #63b9c998;
+  float: left;
+  margin-bottom: 2rem;
+  margin: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px ;
+}
+.container .box .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 1;
+}
+.container .box:hover .icon{
+  top: 20px;
+  top: calc(1000% - 500px);
+  width: 100%;
+  height: 100%;
+}
+
+.container .box .content {
+  position: absolute;
+  top: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+
+}
+.container .box:hover .content{
+  top: 4rem;
+  opacity: 1;
+}
+.container .box .content h3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0px;
+  padding: 5px ;
+  color: rgba(40, 0, 134, 0.788);
+  font-size:24px ;
+
+}
+.container .box .content p{
+  font-family: 'Cookie', cursive;
+  font-size: 1.5rem; 
+  margin: 0;
+  padding: 0;
+  color: rgb(23, 74, 87);
+}
+.container .box .content button{
+  height: 2rem;
+  width: 7rem;
+ background-color: rgb(94, 94, 216);
+ border-radius: 10px;
+ margin-top: 0.2rem;
+ /* margin-bottom: 1rem; */
+}
+.container .box .content button a{
+  color: white;
+  text-decoration: none !important;
+}
+.container .box .content button:hover{
+  background-color: rgb(198, 198, 228);
+
+
+}
+.container .box .content button a:hover{
+  color: rgb(0, 0, 0);
+
+}
+
+.container .box:nth-child(1) .icon{
+  background-image: url('https://madhurasrecipe.com/wp-content/uploads/2020/10/Puneri-Misal-Marathi-Recipe-feature.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(1){
+backdrop-filter:blur(20px);
+background: white;
+
+
+}
+.container .box:nth-child(2) .icon{
+  background-image: url('https://static.toiimg.com/thumb/54422265.cms?imgsize=134276&width=800&height=800');
+  background-size: cover;
+
+}
+.container .box:nth-child(2){
+  backdrop-filter:blur(20px);
+
+  background: white;
+}
+.container .box:nth-child(3) .icon{
+  background-image :url('https://shwetainthekitchen.com/wp-content/uploads/2021/01/Sarson-ka-Saag.jpg');
+  background-size: cover;
+
+}
+.container .box:nth-child(3){
+  backdrop-filter:blur(20px);
+  background: white;
+ )
+}
+.container .box:nth-child(4) .icon{
+  background-image: url('https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2020-12/dhokla%C2%A9iStock.jpg');
+  background-size: cover;
+
+
+}
+.container .box:nth-child(4){
+  background: white;
+  backdrop-filter:blur(20px);
+
+}
+.container .box:nth-child(5) .icon{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a8/Rogan_josh02.jpg');
+  background-size: cover;
+
+}
+.container .box:nth-child(5){
+  background: white;
+  backdrop-filter:blur(20px);
+
+} 
+.container .box:nth-child(6) .icon{
+background-image: url('https://vegveganmeat.com/wp-content/uploads/2021/01/ven-pongal-recipe-khara-pongal-in-pressure-cooker-735x735.jpg');
+background-size: cover;
+}
+.container .box:nth-child(6){
+  background: white;
+  backdrop-filter:blur(20px);
+
+} 
+.container .box:nth-child(7) .icon{
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hyderabadi_Chicken_Biryani.jpg/800px-Hyderabadi_Chicken_Biryani.jpg');
+background-size: cover;
+}
+.container .box:nth-child(7){
+  background: white;
+  backdrop-filter:blur(20px);
+
+} 
+.container .box:nth-child(8) .icon{
+background-image: url('https://www.outlookindia.com/outlooktraveller/public/uploads/filemanager/images/fish-curry.jpg');
+background-size: cover;
+}
+.container .box:nth-child(8){
+  background: white;
+  backdrop-filter:blur(20px);
+
+} 
+.container .box:nth-child(9) .icon{
+background-image: url('https://img-global.cpcdn.com/recipes/b72585176fb054d0/680x482cq70/litti-chokha-recipe-main-photo.jpg');
+background-size: cover;
+}
+.container .box:nth-child(9){
+background: white; 
+ backdrop-filter:blur(20px);
+
+}
