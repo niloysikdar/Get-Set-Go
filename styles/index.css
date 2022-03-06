@@ -5,6 +5,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar-section a{
+  padding-top: 2px;
+  font-size: 1.28rem;
+  text-decoration: none !important;
+  color: black
+}
 
 .scroll_bar_visible::selection {
   background-color: rgb(218, 210, 210);
@@ -388,7 +394,7 @@ html {
 }
 
 
-.navbar-section p a {
+.navbar-section a {
   font-size: 20px;
   text-decoration: none;
   border-radius: 15px;
@@ -398,7 +404,7 @@ html {
   transition: all .3s;
 }
 
-.navbar-section p a:hover {
+.navbar-section a:hover {
   background-color: rgba(87, 86, 86, 0.829);
   color: #ffffff;
   box-shadow: 0px 0px 4px #444444;
