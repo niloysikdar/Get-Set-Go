@@ -304,3 +304,83 @@ background: white;
  backdrop-filter:blur(20px);
 
 }
+.container .box:nth-child(10) .icon{
+background-image: url('https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa-500x500.jpg');
+background-size: cover;
+}
+.container .box:nth-child(10){
+background: white; 
+ backdrop-filter:blur(20px);
+
+}
+.container .box:nth-child(11) .icon{
+background-image: url('https://www.jacadatravel.com/wp-content/uploads/fly-images/249711/Delhi-street-food-2-552x310-cc.jpg');
+background-size: cover;
+}
+.container .box:nth-child(11){
+background: white; 
+ backdrop-filter:blur(20px);
+
+}
+ .container .box:nth-child(12) .icon{
+background-image: url('https://www.jacadatravel.com/wp-content/uploads/fly-images/316522/iStock-1084019098-552x310-cc.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(12){
+background: white; 
+ backdrop-filter:blur(20px); 
+}
+
+.container .box:nth-child(13) .icon{
+background-image: url('https://www.jacadatravel.com/wp-content/uploads/fly-images/316523/iStock-887144836-552x310-cc.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(13){
+background: white; 
+ backdrop-filter:blur(20px);
+
+}
+
+.container .box:nth-child(14) .icon{
+background-image: url('https://www.jacadatravel.com/wp-content/uploads/fly-images/316524/iStock-1156874847-552x310-cc.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(14){
+background: white; 
+ backdrop-filter:blur(20px);
+
+}
+
+.container .box:nth-child(15) .icon{
+background-image: url('https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/kolkata-400x213.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(15){
+background: white; 
+ backdrop-filter:blur(20px);
+}
+
+.container .box:nth-child(16) .icon{
+background-image: url('https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/mysore-400x300.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(16){
+background: white; 
+ backdrop-filter:blur(20px);
+}
+.container .box:nth-child(17) .icon{
+background-image: url('https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/vada-pav-400x266.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(17){
+background: white; 
+ backdrop-filter:blur(20px);
+}
+.container .box:nth-child(18) .icon{
+background-image: url('https://assets.traveltriangle.com/blog/wp-content/uploads/2018/01/shutterstock_326657696.jpg');
+  background-size: cover;
+}
+.container .box:nth-child(18){
+background: white; 
+ backdrop-filter:blur(20px);
+}
