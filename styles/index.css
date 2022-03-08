@@ -409,3 +409,163 @@ html {
   color: #ffffff;
   box-shadow: 0px 0px 4px #444444;
 }
+
+.no_scroll_bar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollBarVisible::selection {
+  background-color: rgb(218, 210, 210);
+}
+
+.scrollBarVisible::-webkit-scrollbar {
+  width: 10px !important;
+  background-color: #2e313a;
+}
+
+.scrollBarVisible::-webkit-scrollbar-thumb {
+  background-color: #a9f2ff;
+}
+
+#preloader_container {
+
+  position: fixed;
+  z-index: 9999999;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  opacity: 1;
+}
+
+#loader {
+  position: relative;
+  background-color: #455a64;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.preloader_container h3 {
+  position: fixed;
+  top: 57%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 25px;
+}
+
+#pre-loader {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px -50px;
+}
+
+#pre-loader div {
+  width: 20px;
+  height: 20px;
+  background: #FFF;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#ball1 {
+  animation: animate 2s linear infinite;
+  margin: 10px;
+}
+
+#ball2 {
+  animation: animate 2s linear infinite -.4s;
+  margin: 10px;
+
+}
+
+#ball3 {
+  animation: animate 2s linear infinite -.8s;
+  margin: 10px;
+
+}
+
+#ball4 {
+  animation: animate 2s linear infinite -1.2s;
+  margin: 10px;
+
+}
+
+#ball5 {
+  animation: animate 2s linear infinite -1.6s;
+  margin: 10px;
+
+}
+
+@keyframes animate {
+  0% {
+    left: 100px;
+    top: 0px;
+  }
+
+  80% {
+    width: 100px;
+    left: 0;
+    top: 10px;
+  }
+
+  85% {
+    left: 0;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+
+  }
+
+  90% {
+    width: 40px;
+    height: 15px;
+    top: -60px;
+
+  }
+
+  95% {
+    left: 100px;
+    top: -80px;
+    width: 20px;
+    height: 20px;
+
+  }
+
+  100% {
+    left: 100px;
+    top: 0;
+  }
+}
+
+
+#dot1 {
+  animation: opacityAnim .4s linear infinite;
+}
+
+#dot2 {
+  animation: opacityAnim .6s linear infinite;
+}
+
+#dot3 {
+  animation: opacityAnim .8s linear infinite;
+}
+
+@keyframes opacityAnim {
+  from {
+    opacity: 1;
+    position: relative;
+    top: 0;
+  }
+
+  to {
+    opacity: 0;
+    position: relative;
+    top: 5px;
+  }
+}

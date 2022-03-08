@@ -13,7 +13,21 @@
   <link rel="stylesheet" href="styles/index.css">
 </head>
 
-<body class="scroll_bar_visible">
+<body class="no_scroll_bar">
+  <div class="preloader_container" id="preloader_container">
+    <div class="loader" id="loader">
+      <div id="pre-loader" class="pre-loader">
+        <div id="ball1"></div>
+        <div id="ball2"></div>
+        <div id="ball3"></div>
+        <div id="ball4"></div>
+        <div id="ball5"></div>
+      </div>
+      <h3>Loading
+        <span id="dot1">.</span><span id="dot2">.</span><span id="dot3">.</span>
+      </h3>
+    </div>
+  </div>
   <div class="container1">
     <section>
       <div class="navbar-section">
@@ -88,6 +102,17 @@
     });
     
     
+    </script>
+    <script>
+       const bodyTag = document.body;
+    const loaderContainer = document.getElementById("preloader_container");
+    window.onload = function () {
+      setTimeout(function () {
+        loaderContainer.style.opacity = "0";
+        loaderContainer.style.pointerEvents = "none";
+        bodyTag.classList.replace("no_scroll_bar", "scrollBarVisible");
+      }, 3000);
+    }
     </script>
 </body>
 
