@@ -5,12 +5,12 @@
   }
   body{
     overflow-x: hidden;
-    background-image: url('../images/gallery_page_background.jpg');
+    background-image: url(https://i0.wp.com/teamsbackground.net/wp-content/uploads/2020/10/sjkzlv7wfug.jpg?resize=970%2C546&ssl=1);
     background-size: cover;
     background-repeat: repeat;
 }
 #gallery_heading{
-  color: #6c63ff;
+  color: #c6e615;
 }
 .center {
   display: flex;
@@ -56,7 +56,7 @@
   display: none;
 }
 h4{
-  color: #6c63ff;
+  color: #c6e615;
 }
 .description a{
   text-decoration: none;
@@ -64,13 +64,13 @@ h4{
   border-radius: 10px;
   padding: 10px;
   padding-top: 8px;
-  background-color:#6c63ff;
+  background-color:#c6e615;
   color: white;
   text-align: center;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.781);
 }
 .description a:hover{
-  color: #6c63ff;
+  color: #c6e615;
   background-color: white;
   transition: .3s all linear;
 }
@@ -86,9 +86,9 @@ h4{
   padding-left: 15px;
   font-size: 1rem;
   font-family: cursive;
-  background-color: #ffffffd3;
+  background-color: #e6d2d2d3;
   border: none;
-  color: rgb(100, 100, 100);
+  color: rgb(75, 23, 23);
 }
 .gallery_header input:focus{
   box-shadow: 0px 0px 14px rgb(70, 70, 70);
@@ -110,10 +110,11 @@ h4{
   }
   .navbar .user_profile_name p {
     font-size: 1.1rem;
+    color: #ffffff;
   }
   .navbar .user_profile_icon a i{
     font-size: 1.9rem;
-    color: rgba(75, 73, 75, 0.836);
+    color: #ffffff;
 
 
   }
@@ -124,7 +125,7 @@ h4{
     font-size: 1.8rem;
     position: relative;
     top: -.37rem;
-    color: rgb(75, 73, 75);
+    color: #ffffff;
   }
   .navbar div{
     padding:4px 10px;

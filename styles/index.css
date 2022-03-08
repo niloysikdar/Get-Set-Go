@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/roboto');
 
 * {
-  padding: 0;
+  padding-left: 6px;
   margin: 0;
   box-sizing: border-box;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .container1 {
-  background-image: url('../images/Background.jpg');
+  background-image: url(https://www.hdnicewallpapers.com/Walls/Big/Nature%20and%20Landscape/Beautiful_Nature_Background_Wallpapers.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
@@ -51,7 +51,7 @@ body {
 .navbar-section p,
 a i,
 button i {
-  color: rgb(59, 58, 58);
+  color: rgb(59, 58, 100);
   font-size: 1.4rem;
 
 }
@@ -93,7 +93,7 @@ button i {
   outline: none;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.9);
-  font-size: .8rem;
+  font-size: 1.0rem;
   font-family: 'Roboto', sans-serif;
 }
 
