@@ -128,6 +128,71 @@ const stateDesc = [
         stateDescription: "For seekers of spirituality, Pondicherry is known for Aurobindo Ashram and Auroville attracting thousands of tourists to explore this beautiful city. For nature lovers too, Pondicherry is a serene retreat replete with various beaches and lakes that takes the breath away of the tourists on the first glimpse.",
         stateInfo: "https://en.wikipedia.org/wiki/Pondicherry",
     },
+    {  
+        stateImage: "https://www.jagranimages.com/images/newimg/16072021/16_07_2021-baba_baidynath_dham_21836207.jpg",
+        stateName: "Jharkhand",
+        stateDescription: "Jharkhand is a state in eastern India. It's known for its waterfalls, the elegant Jain temples of Parasnath Hill and the elephants and tigers of Betla National Park. The state capital of Ranchi is a gateway to the park. It features the 17th-century Jagannath Temple, a Hindu shrine and the Jharkhand War Memorial. Tagore Hill is a monument honoring Nobel Prize-winning author Rabindranath Tagore.",
+        stateInfo: "https://en.wikipedia.org/wiki/Jharkhand",
+    },
+   
+    {  
+        stateImage: "https://www.tourmyindia.com/states/chhattisgarh/images/barnawapara.jpg",
+        stateName: "Chhattisgarh",
+        stateDescription: "Chhattisgarh is a heavily forested state in central India known for its temples and waterfalls. Near the capital Raipur, the town of Sirpur on the Mahanadi River is home to the red-brick Lakshmana (Laxman) Temple, decorated with carvings from Indian mythology. In the south, the city of Jagdalpur hosts the Sanjay Market on Sundays.The huge Chitrakoot Falls lie to the northwest. ",
+        stateInfo: "https://en.wikipedia.org/wiki/chhattisgarh",
+    },
+   
+    {  
+        stateImage: "https://whc.unesco.org/uploads/thumbs/site_1502_0010-500-332-20160616154106.jpg",
+        stateName: "Bihar",
+        stateDescription: "Bihar is a state in East India, bordering Nepal. It is divided by the River Ganges, which floods its fertile plains. Important Buddhist pilgrimage sites include the Bodhi Tree in Bodhgaya's Mahabodhi Temple, under which the Buddha allegedly meditated.  ",
+        stateInfo: "https://en.wikipedia.org/wiki/Bihar",
+    },
+    {  
+        stateImage: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Sunrise_over_Kangchenjunga.jpg",
+        stateName: "Sikkim",
+        stateDescription: "Sikkim is a state in northeast India, bordered by Bhutan, Tibet and Nepal. Part of the Himalayas, the area has a dramatic landscape that includes India’s highest mountain, 8,586m Kangchenjunga. Sikkim is also home to glaciers, alpine meadows and thousands of varieties of wildflowers.",
+        stateInfo: "hhttps://en.wikipedia.org/wiki/Sikkim",
+    },
+    
+    {  
+        stateImage: "https://haryanatourism.gov.in/WriteReadData/images/Explore-Haryana.jpg",
+        stateName: "Haryana",
+        stateDescription: "Haryana is a North Indian state surrounding New Delhi on 3 sides. The Yamuna River runs along its eastern border .Shared with Punjab, the state capital Chandigarh is known for its modernist buildings and gridlike street plan designed by Swiss architect, Le Corbusier.The Zakir Hussain Rose Garden features 1,600 species, while its Rock Garden showcases sculptures made with recycled materials.",
+        stateInfo: "https://en.wikipedia.org/wiki/Haryanas",
+    },
+
+    {  
+        stateImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ramappa_Temple_%28Human_Scale%29.jpg/330px-Ramappa_Temple_%28Human_Scale%29.jpg",
+        stateName: "Telangana",
+        stateDescription: "Telangana is a state in southern India. In the capital of Hyderabad,the Charminar is a 16th-century mosque with 4 arches supporting 4 towering minarets.In the city of Warangal, the centuries-old Warangal Fort features carved stone towers and gateways.Once the seat of the Qutb Shahi dynasty,the sprawling Golconda Fort is a former diamond-trading center.",
+        stateInfo: "https://en.wikipedia.org/wiki/Telangana",
+    },
+    {  
+        stateImage: "https://images.unsplash.com/photo-1635606479899-8ba9168ff576?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWl6b3JhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        stateName: "Mizoram",
+        stateDescription: "Mizoram is a state in northeastern India, with Aizawl as its seat of government and capital city. The name of the state is derived from 'Mizo', the self described name of the native inhabitants, and 'Ram', which in the Mizo language means 'land.' Thus 'Mizo-ram' means 'land of the Mizos'.",
+        stateInfo: "https://en.wikipedia.org/wiki/Mizoram",
+    },
+    {  
+        stateImage: "https://upload.wikimedia.org/wikipedia/commons/d/da/View_of_Kodanda_Ramaswamy_Temple_in_Vontimitta.jpg",
+        stateName: "Andhra Pradesh",
+        stateDescription: "Andhra Pradesh is a state in the Republic of India. It has a population of 75,727,000 people according to the census of 2001. The eastern boundary is a 600 miles (970 km) coastline along the Bay of Bengal. is a state in the Republic of India. It has a population of 75,727,000 people according to the census of 2001.",
+        stateInfo: "https://en.wikipedia.org/wiki/Andhra_Pradesh",
+    },
+    {  
+        stateImage: "https://images.unsplash.com/photo-1572431447238-425af66a273b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFrc2hhZHdlZXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        stateName: "Lakshadweep",
+        stateDescription: "Lakshadweep is a tropical archipelago of 36 atolls and coral reefs in the Laccadive Sea, off the coast of Kerala, India. Kavaratti, one of the more developed islands, is home to dozens of mosques, including the ornately decorated Ujra Mosque, as well as Kavaratti Aquarium, showcasing regional fish, shark and coral species.",
+        stateInfo: "https://en.wikipedia.org/wiki/Lakshadweep",
+    },
+    {  
+        stateImage: "https://media.istockphoto.com/photos/landscape-of-snow-mountains-and-mountain-road-to-nubra-valley-in-leh-picture-id1061972184?b=1&k=20&m=1061972184&s=170667a&w=0&h=5uMJ0xdCTuYrLix-B6O7J183kG7lM4f8_DwjmBskbHQ=",
+        stateName: "Ladakh",
+        stateDescription: "Ladakh is a region administered by India as a union territory, which constitutes a part of the larger Kashmir region and has been the subject of dispute between India, Pakistan, and China since 1947.",
+        stateInfo: "https://en.wikipedia.org/wiki/Ladakh",
+    },
+
    
 
 
