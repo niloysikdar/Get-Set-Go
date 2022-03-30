@@ -11,18 +11,6 @@
   <title>Get Set Go</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles/index.css">
-  
-  <!--aeroplane icon-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--font of india-heading-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fredericka+the+Great&family=Inknut+Antiqua:wght@500&family=Italiana&family=Metamorphous&family=Mr+Bedfort&family=Rye&family=Sancreek&display=swap" rel="stylesheet"> 
-  <!--font of india-phrase-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-  
 </head>
 
 <body class="no_scroll_bar">
@@ -43,34 +31,19 @@
   <div class="container1">
     <section>
       <div class="navbar-section">
-        <div class="signin">
-          <a href="./signin.html" id="sigin_button">Sign In</a>
-        </div>
-        <div class="foods">
-          <a href="./foods.html">Foods</a>
-        </div>
-        <div class="profile">
-          <a href="#">Profile</a>
-        </div>
-        <div class="user">
-          <a href="#" target="_blank"><i class="fa-solid fa-circle-user"></i></a>
-        </div>
-        <div class="btn">
-          <button><i class="fa-solid fa-bars"></i></button>
+        <a href="./signin.html" id="sigin_button">Sign In</a>
+        <a href="./foods.html">Foods</a>
+
+        <p>Profile</p>
+        <a href="#" target="_blank"><i class="fa-solid fa-circle-user"></i></a>
+        <button><i class="fa-solid fa-bars"></i></button>
+      </div>
+      <div class="searchbar-section">
+        <div class="searchbar">
+          <input type="search" name="state_search" id="state_search" placeholder="Search Your State">
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
       </div>
-
-      <div class="main">
-        <h1 class="india_heading">India</h1><br>
-        <h1 class="india_phrase">A Country of Diversity</h1>
-        <div class="searchbar-section">
-          <div class="searchbar">
-            <input type="search" name="state_search" id="state_search" placeholder="Search Your State">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-        </div>
-      </div>
-
     </section>
     
   </div>
@@ -129,8 +102,8 @@
     });
     
     
-  </script>
-  <script>
+    </script>
+    <script>
        const bodyTag = document.body;
     const loaderContainer = document.getElementById("preloader_container");
     window.onload = function () {
@@ -140,7 +113,7 @@
         bodyTag.classList.replace("no_scroll_bar", "scrollBarVisible");
       }, 3000);
     }
-  </script>
+    </script>
 </body>
 
 </html>
