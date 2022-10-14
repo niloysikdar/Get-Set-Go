@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Get Set Go</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../styles/index.css">
+
+</head>
+<body class="no_scroll_bar">
+  <div class="preloader_container" id="preloader_container">
+    <div class="loader" id="loader">
+      <div id="pre-loader" class="pre-loader">
+        <div id="ball1"></div>
+        <div id="ball2"></div>
+        <div id="ball3"></div>
+        <div id="ball4"></div>
+        <div id="ball5"></div>
+      </div>
+      <h3>Loading
+        <span id="dot1">.</span><span id="dot2">.</span><span id="dot3">.</span>
+      </h3>
+    </div>
+  </div>
+  <div class="container1">
+    <section>
+      <div class="navbar-section">
+        <div class="states">
+          <a href="./state.html">States</a>
+        </div>
+        <div class="foods">
+          <a href="./foods.html">Foods</a>
+        </div>
+        <!-- <div class="profile">
+          <a href="#">Profile</a>
+        </div> -->
+        <div class="gallery">
+          <a href="./gallery.html">Gallery</a>
+        </div>
+        <div class="signin">
+          <a href="./signin.html" id="sigin_button">Sign In</a>
+        </div>
+        <div class="user">
+          <a href="#" target="_blank"><i class="fa-solid fa-circle-user"></i></a>
+        </div>
+        <div class="btn">
+          <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+
+      <div class="main">
+        <h1 class="india_heading">INDIA</h1><br>
+        <h1 class="india_phrase">A Country of Diversity</h1>
+        <!-- <div class="searchbar-section">
+          <div class="searchbar">
+            <input type="search" name="state_search" id="state_search" placeholder="Search Your State">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div> -->
+      </div>
+
+    </section>
+    <div class="recognization">
+      <div class="head">UNESCO RECOGNIZED WORLD HERITAGE CENTERS IN INDIA</div>
+    </div>
+    <div class="amin_container2">
+      <button onclick="goPrev()" class="toggle"><i class='fas fa-arrow-left'></i></button>
+      <div class="container2">
+        <!-- <span>toggle</span> -->
+      </div>
+      <button onclick="goNext()" class="toggle"><i class='fas fa-arrow-right'></i></button>
+    </div>
+  </div>
+    <script src="../js/index.js"></script>
+    <script>
+      const bodyTag = document.body;
+   const loaderContainer = document.getElementById("preloader_container");
+   window.onload = function () {
+     setTimeout(function () {
+       loaderContainer.style.opacity = "0";
+       loaderContainer.style.pointerEvents = "none";
+       bodyTag.classList.replace("no_scroll_bar", "scrollBarVisible");
+     }, 3000);
+   }
+ </script>
+
+</body>
+
+</html>

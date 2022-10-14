@@ -205,6 +205,7 @@ searchBar.addEventListener('keyup', (input_value) => {
     const findState = stateDesc.filter((desc) => {
         return desc.stateName.toLowerCase().includes(inputValue);
     });
+    console.log(findState);
     showStates(findState);
 })
 const getState = () => {
