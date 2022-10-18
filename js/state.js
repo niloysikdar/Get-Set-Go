@@ -28,10 +28,7 @@ const showSlider = (states) => {
             <div class="content">
               <h2>${item.stateName}</h2>
               <h3>${item.stateAcr}</h3>
-              <form action="location.html" method="GET">
-              <button type="submit" name="q" class="btns" id="btn" value="&#xe8f4;"><i class="fa fa-plane"></i></button>
-              <input type="text" name="state" readonly="readonly" value="${item.stateName}" style="display:none;">
-              </form>
+              <a href="./location?state=${item.stateName}" class="btns"><i class="fa fa-plane fa-2x"></i></a>
             </div>
           </div>
         </div>`;
