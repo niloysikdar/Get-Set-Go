@@ -1,17 +1,20 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body{
-    overflow-x: hidden;
-    background-image: url('../images/gallery_page_background.jpg');
-    background-size: cover;
-    background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-#gallery_heading{
+
+body {
+  overflow-x: hidden;
+  background-image: url('../images/gallery_page_background.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#gallery_heading {
   color: #6c63ff;
 }
+
 .center {
   display: flex;
   flex-wrap: wrap;
@@ -21,7 +24,6 @@
 }
 
 .center .stateBlock {
-
   border: none;
   border-radius: 10px;
   margin: 10px;
@@ -37,42 +39,39 @@
   background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(18px);
   padding-bottom: 0px;
-
-
 }
-.stateBlock:hover{
-  transition: display .3s;
+.stateBlock:hover {
+  transition: display 0.3s;
 }
 .stateBlock img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 300px;
   width: auto;
-
 }
 
 .description {
   color: white;
   display: none;
 }
-h4{
+h4 {
   color: #6c63ff;
 }
-.description a{
+.description a {
   text-decoration: none;
   border: none;
   border-radius: 10px;
   padding: 10px;
   padding-top: 8px;
-  background-color:#6c63ff;
+  background-color: #6c63ff;
   color: white;
   text-align: center;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.781);
 }
-.description a:hover{
+.description a:hover {
   color: #6c63ff;
   background-color: white;
-  transition: .3s all linear;
+  transition: 0.3s all linear;
 }
 .gallery_header input {
   width: 35%;
@@ -90,44 +89,42 @@ h4{
   border: none;
   color: rgb(100, 100, 100);
 }
-.gallery_header input:focus{
+.gallery_header input:focus {
   box-shadow: 0px 0px 14px rgb(70, 70, 70);
 }
-.container-fluid_1{
-    display: flex;
-    flex-direction: column;
-  }
-  /* Navbar */
-  .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-right: .5rem;
-  }
-  .navbar .user_profile{
-    display: flex;
-    flex-direction: row;
-  }
-  .navbar .user_profile_name p {
-    font-size: 1.1rem;
-  }
-  .navbar .user_profile_icon a i{
-    font-size: 1.9rem;
-    color: rgba(75, 73, 75, 0.836);
-
-
-  }
-  .navbar .user_profile_icon{
-    padding-left: 2px !important;
-  }
-  .navbar .menu_icon i{
-    font-size: 1.8rem;
-    position: relative;
-    top: -.37rem;
-    color: rgb(75, 73, 75);
-  }
-  .navbar div{
-    padding:4px 10px;
-    font-weight: 500;
-    color: rgb(75, 73, 75);
-  }
+.container-fluid_1 {
+  display: flex;
+  flex-direction: column;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}
+.navbar .user_profile {
+  display: flex;
+  flex-direction: row;
+}
+.navbar .user_profile_name p {
+  font-size: 1.1rem;
+}
+.navbar .user_profile_icon a i {
+  font-size: 1.9rem;
+  color: rgba(75, 73, 75, 0.836);
+}
+.navbar .user_profile_icon {
+  padding-left: 2px !important;
+}
+.navbar .menu_icon i {
+  font-size: 1.8rem;
+  position: relative;
+  top: -0.37rem;
+  color: rgb(75, 73, 75);
+}
+.navbar div {
+  padding: 4px 10px;
+  font-weight: 500;
+  color: rgb(75, 73, 75);
+}

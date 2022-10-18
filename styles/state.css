@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo&family=Cookie&family=Courgette&family=Dancing+Script&family=Great+Vibes&family=IBM+Plex+Mono:wght@100&family=Lobster&family=Lobster+Two&family=Pacifico&family=Sansita+Swashed:wght@300&family=Shadows+Into+Light&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container3 {
+  background-image: url('../images/pexels-filippo-peisino-2678301.jpg');
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 10px 5px #000000;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.box {
+  min-height: 89vh;
+  display: block;
+  width: 150vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.822) 0px 5px 5px;
+  border: 2vh solid white;
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+}
+
+@media (max-width: 860px) {
+  .box {
+    min-height: 49vh;
+    width: 40vh;
+  }
+}
+.box .content {
+  display: flex;
+  flex-direction: row;
+  width: 150vh;
+  height: 20vh;
+  /* text-align: center; */
+  background: white;
+  padding: 5vh;
+  transform: translate(-2vh, 65.5vh);
+}
+.box .content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  /*text-align: center;*/
+  font-family: serif;
+  transform: translateX(10vh);
+  padding-left: 12vh;
+  color: rgb(252, 184, 84);
+}
+
+.box .content h3 {
+  font-size: 1rem;
+  color: #2a2c2a;
+  padding-left: 22.1vh;
+  padding-top: 1em;
+  font-style: italic;
+}
+
+.btns {
+  margin-top: 10vh;
+  word-wrap: break-word;
+  border: none !important;
+  outline: none !important;
+  color: #131414;
+  /*color: white;*/
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  /*backdrop-filter: blur(20px);*/
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  width: 6.2vh;
+  height: 6.2vh;
+  border-radius: 40px;
+  text-decoration: none;
+  transform: translate(48vh, -9vh);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-plane {
+  color: #0a0a0a;
+}
+.btns:hover {
+  background: rgb(255, 183, 75);
+  transition: 0.4s linear;
+  padding: 2.5vh;
+  width: 7.5vh;
+  box-shadow: none;
+}
+
+input {
+  width: 35%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  margin: 25px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  font-size: 1rem;
+  font-family: cursive;
+  background-color: #ffffffd3;
+  border: none;
+  color: rgb(100, 100, 100);
+}
+input:focus {
+  box-shadow: 0px 0px 14px rgb(70, 70, 70);
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
